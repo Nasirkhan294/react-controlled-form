@@ -82,7 +82,7 @@ const Form = () => {
 					<h5>Favorite Car Brand : {state.carBrand}</h5>
 					<h5>Is it Checked : {state.isChecked ? "Yes" : "No"}</h5>
 					<h5>Gender : {state.gender}</h5>
-					<h5>Price : {state.price}</h5>
+					<h5>Price : ${state.price}</h5>
 				</div>
 				<div className="form-img">
 					<img src={image} alt="#" />
